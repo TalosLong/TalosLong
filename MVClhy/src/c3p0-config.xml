@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+
+  <named-config name="mvcapp"> 
+   	
+   	<property name="user">root</property>
+   	<property name="password">010110</property>
+   	<property name="driverClass">com.mysql.jdbc.Driver</property>
+   	<property name="jdbcUrl">jdbc:mysql://localhost:3306/课程设计</property>
+   
+    <property name="acquireIncrement">10</property>
+    <property name="initialPoolSize">20</property>
+    <property name="minPoolSize">20</property>
+    <property name="maxPoolSize">100</property>
+
+    <property name="maxStatements">40</property> 
+    <property name="maxStatementsPerConnection">10</property>
+   </named-config>
+    
+</c3p0-config>

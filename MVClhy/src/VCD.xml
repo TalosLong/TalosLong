@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VCD>
+	<vcd >
+	<VNo>100</VNo>
+	<VRent>200</VRent>
+	<VSale>6000</VSale>
+	<VName>"avengers"</VName>
+	<VSatute>1</VSatute>
+	<VDuration>190</VDuration>
+	</vcd>
+</VCD>
